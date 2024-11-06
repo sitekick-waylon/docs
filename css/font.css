@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'BerkeleyMono-Regular';
+    src: url('../fonts/BerkeleyMono-Regular.otf') font ('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BerkelyMono-Bold';
+    src: url('../fonts/BerkeleyMono-Bold.otf') font ('opentype');
+    font-weight: bold;
+    font-style: bold;
+}
+
+h1{
+    font-family: 'BerkeleyMono-Bold';
+    text-transform:uppercase;
+}
+
+h2{
+    font-family: 'BerkeleyMono-Bold';
+    text-transform:uppercase;
+    padding-top: 56px;
+}
+
+body{
+    font-family: 'BerkeleyMono-Regular';
+}

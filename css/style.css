@@ -1,0 +1,57 @@
+:root {
+    --inference-white: #F8F2EC;
+    --inference-white-darker: #F1E9E2;
+    --inference-black: #232933;
+    --inference-black-darker: #0D121A;
+
+    --inference-text-light: ;
+    --inference-text-default: ;
+    --inference-border-light: ;
+    --inference-border-default: ;
+}
+
+html{
+    .card{
+        border-radius: 0;
+    }
+}
+
+html.dark 
+{
+    #__next {
+        background-color: var(--inference-black-darker);
+    }
+    .card {
+        background-color: var(--inference-black-darker);
+    }
+    .group {
+        background-color: var(--inference-black-darker);
+        border-radius: 0;
+    }
+    .group:focus, .group:hover, .group.active, .group.selected{
+        background-color: var(--inference-white);
+        color: black;
+        outline-color: black;
+        text-decoration-color: black;
+    }
+    .svg:hover{
+        color-scheme: black;
+    }
+}
+
+html:not(.dark)
+{ 
+    #__next {
+        background-color: var(--inference-white);
+    }
+    .card {
+        background-color: var(--inference-white);
+    }
+
+    h1{
+        color: var(--inference-black);
+    }
+    h2{
+        color: var(--inference-black);
+    }
+}
