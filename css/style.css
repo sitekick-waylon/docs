@@ -1,57 +1,64 @@
 :root {
     --inference-white: #F8F2EC;
     --inference-white-darker: #F1E9E2;
-    --inference-black: #232933;
-    --inference-black-darker: #0D121A;
+    --inference-white-lighter:#FAF7F4;
 
-    --inference-text-light: ;
-    --inference-text-default: ;
-    --inference-border-light: ;
-    --inference-border-default: ;
+    --inference-black: #141414;
+    --inference-black-darker: #0F0F0F;
+
+    --inference-border-dark: #292929;
+    --inference-border-light: #E8E0D9;
 }
 
 html{
-    .card{
-        border-radius: 0;
+    #navigation-items{
+        font-family: 'BerkeleyMono-Bold';
+        text-transform:uppercase;
+    }
+    #navigation-items a{
+        height: 48px;
     }
 }
 
 html.dark 
 {
-    #__next {
-        background-color: var(--inference-black-darker);
+    .card{
+        background-color: var(--inference-black);
+        border-color:var(--inference-border-dark);
     }
-    .card {
-        background-color: var(--inference-black-darker);
+    .card:hover{
+        border-color: var(--inference-white) !important;
     }
-    .group {
-        background-color: var(--inference-black-darker);
-        border-radius: 0;
+    
+    h2:not(.text-base){
+        font-family: 'BerkeleyMono-Bold';
+        text-transform:uppercase;
+        padding-top: 56px;
+        padding-bottom: 24px;
+        margin-bottom: 32px !important;
+        border-bottom: 1px solid var(--inference-white);
     }
-    .group:focus, .group:hover, .group.active, .group.selected{
-        background-color: var(--inference-white);
-        color: black;
-        outline-color: black;
-        text-decoration-color: black;
-    }
-    .svg:hover{
-        color-scheme: black;
+    .codeblock-light{
+        border: 1px solid var(--inference-border-dark);
     }
 }
 
 html:not(.dark)
 { 
-    #__next {
-        background-color: var(--inference-white);
-    }
     .card {
         background-color: var(--inference-white);
+        border-color:var(--inference-white-darker);
+        background-color: var(--inference-white-lighter);
     }
-
-    h1{
-        color: var(--inference-black);
+    .card:hover{
+        border-color: var(--inference-black) !important;
     }
-    h2{
-        color: var(--inference-black);
+    .codeblock-light{
+        border: 1px solid var(--inference-border-light);
+        background-color: var(--inference-white-lighter);
     }
+    
+}
+.list-none{
+    height: 40px;
 }
