@@ -1,12 +1,12 @@
 @font-face {
-    font-family: 'BerkeleyMono-Regular';
+    font-family: 'Inference_BerkeleyMono-Regular';
     src: url('./fonts/BerkeleyMono-Regular.woff2') format ('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'BerkeleyMono-Bold';
+    font-family: 'Inference_BerkeleyMono-Bold';
     src: url('./fonts/BerkeleyMono-Bold.woff2') format ('woff2');
     font-weight: bold;
     font-style: normal;
@@ -21,7 +21,7 @@ h1{
 }
 
 h2:not(.text-base){
-    font-family: 'BerkeleyMono-Bold', monospace;
+    font-family: 'Inference_BerkeleyMono-Bold', monospace;
     text-transform:uppercase;
     padding-top: 56px;
     padding-bottom: 24px;
@@ -31,26 +31,26 @@ h2:not(.text-base){
 
 
 h2.text-base{
-    font-family: 'BerkeleyMono-Bold', monospace;
+    font-family: 'Inference_BerkeleyMono-Bold', monospace;
     text-transform:uppercase;
 }
 
 h3{
-    font-family: 'BerkeleyMono-Bold', monospace;
+    font-family: 'Inference_BerkeleyMono-Bold', monospace;
     text-transform:uppercase;
 }
 h4{
-    font-family: 'BerkeleyMono-Bold', monospace;
+    font-family: 'Inference_BerkeleyMono-Bold', monospace;
     text-transform:uppercase;
 }
 h5{
-    font-family: 'BerkeleyMono-Bold', monospace;
+    font-family: 'Inference_BerkeleyMono-Bold', monospace;
     text-transform:uppercase;
     border-bottom: 1px solid #E8E0D9;
     padding-bottom: 16px;
 }
 .eyebrow{
-    font-family: 'BerkeleyMono-Bold', monospace;
+    font-family: 'Inference_BerkeleyMono-Bold', monospace;
     text-transform:uppercase;
 
 }
