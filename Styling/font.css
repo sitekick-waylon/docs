@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'BerkeleyMono-Regular';
+    src: url('fonts/BerkeleyMono-Regular.otf') format ('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BerkeleyMono-Bold';
+    src: url('fonts/BerkeleyMono-Bold.otf') format ('opentype');
+    font-weight: bold;
+    font-style: bold;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap');
+
+
+h1{
+    font-family: 'BerkeleyMono-Bold', monospace;
+    text-transform:uppercase;
+}
+
+h2:not(.text-base){
+    font-family: 'BerkeleyMono-Bold', monospace;
+    text-transform:uppercase;
+    padding-top: 56px;
+    padding-bottom: 24px;
+    margin-bottom: 32px !important;
+    border-bottom: 1px solid black;
+}
+
+
+h2.text-base{
+    font-family: 'BerkeleyMono-Bold', monospace;
+    text-transform:uppercase;
+}
+
+h3{
+    font-family: 'BerkeleyMono-Bold', monospace;
+    text-transform:uppercase;
+}
+h4{
+    font-family: 'BerkeleyMono-Bold', monospace;
+    text-transform:uppercase;
+}
+h5{
+    font-family: 'BerkeleyMono-Bold', monospace;
+    text-transform:uppercase;
+    border-bottom: 1px solid #E8E0D9;
+    padding-bottom: 16px;
+}
+.eyebrow{
+    font-family: 'BerkeleyMono-Bold', monospace;
+    text-transform:uppercase;
+
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
