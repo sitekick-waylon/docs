@@ -12,7 +12,7 @@
 
 html{
     #navigation-items{
-        font-family: 'Inference-BerkeleyMono-Bold', monospace;
+        font-family: 'JetBrains Mono', monospace;
         text-transform:uppercase;
     }
     #navigation-items a{
