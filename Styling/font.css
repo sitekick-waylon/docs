@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&family=JetBrains+Mono:wght@800&display=swap');
 
 
-h1{
-    font-family: 'JetBrains Mono', sans-serif;
+h1, h3, h4, .eyebrow, h2.text-base{
     text-transform:uppercase;
 }
 
 h2:not(.text-base){
-    font-family: 'JetBrains Mono', monospace;
     text-transform:uppercase;
     padding-top: 56px;
     padding-bottom: 24px;
@@ -15,32 +13,18 @@ h2:not(.text-base){
     border-bottom: 1px solid black;
 }
 
-
-h2.text-base{
-    font-family: 'JetBrains Mono', monospace;
-    text-transform:uppercase;
-}
-
-h3{
-    font-family: 'JetBrains Mono', monospace;
-    text-transform:uppercase;
-}
-h4{
-    font-family: 'JetBrains Mono', monospace;
-    text-transform:uppercase;
-}
 h5{
-    font-family: 'JetBrains Mono', monospace;
     text-transform:uppercase;
     border-bottom: 1px solid #E8E0D9;
     padding-bottom: 16px;
 }
-.eyebrow{
-    font-family: 'JetBrains Mono', monospace;
-    text-transform:uppercase;
 
-}
-
-body{
-    font-family: 'Inter', sans-serif;
+html{
+    #navigation-items{
+        font-family: 'JetBrains Mono', monospace;
+        text-transform:uppercase;
+    }
+    #navigation-items a{
+        height: 48px;
+    }
 }

@@ -26,6 +26,14 @@
     "mode":"auto"
   },
   "rounded":"sharp",
+"font":{
+  "headings": {
+    "family": "JetBrains Mono"  
+  },
+  "body": {
+    "family": "Inter"
+  }
+},
   
 
 

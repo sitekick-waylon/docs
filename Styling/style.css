@@ -10,16 +10,6 @@
     --inference-border-light: #E8E0D9;
 }
 
-html{
-    #navigation-items{
-        font-family: 'JetBrains Mono', monospace;
-        text-transform:uppercase;
-    }
-    #navigation-items a{
-        height: 48px;
-    }
-}
-
 html.dark 
 {
     .card{
