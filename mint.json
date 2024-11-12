@@ -28,7 +28,7 @@
   "rounded":"sharp",
 "font":{
   "headings": {
-    "family": "Oswald"
+    "family": "JetBrains Mono"
   },
   "body": {
     "family": "Inter"
