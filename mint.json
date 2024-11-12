@@ -27,14 +27,13 @@
   },
   "rounded":"sharp",
 "font":{
-  "headings": "Oswald",
+  "headings": {
+    "family": "Oswald"
+  },
   "body": {
     "family": "Inter"
   }
 },
-  
-
-
   "topbarLinks": [
     {
       "name": "Support",
