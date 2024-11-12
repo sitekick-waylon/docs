@@ -27,9 +27,7 @@
   },
   "rounded":"sharp",
 "font":{
-  "headings": {
-    "family": "Oswald"
-  },
+  "headings": "Oswald",
   "body": {
     "family": "Inter"
   }
