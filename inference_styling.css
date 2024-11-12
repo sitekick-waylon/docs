@@ -10,6 +10,34 @@
     --inference-border-light: #E8E0D9;
 }
 
+h1, h3, h4, .eyebrow, h2.text-base{
+    text-transform:uppercase;
+}
+
+h2:not(.text-base){
+    text-transform:uppercase;
+    padding-top: 56px;
+    padding-bottom: 24px;
+    margin-bottom: 32px !important;
+    border-bottom: 1px solid black;
+}
+
+h5{
+    text-transform:uppercase;
+    border-bottom: 1px solid #E8E0D9;
+    padding-bottom: 16px;
+}
+
+html{
+    #navigation-items{
+        font-family: 'JetBrains Mono', monospace;
+        text-transform:uppercase;
+    }
+    #navigation-items a{
+        height: 48px;
+    }
+}
+
 html.dark 
 {
     .card{
