@@ -13,6 +13,7 @@
 }
 
 h1, h3, h4, .eyebrow, h2.text-base{
+    font-family: 'JetBrains Mono';
     text-transform:uppercase;
 }
 
