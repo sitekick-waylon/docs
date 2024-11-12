@@ -13,12 +13,12 @@
 }
 
 h1, h3, h4, .eyebrow, h2.text-base, h6{
-    font-family: 'JetBrains Mono';
+    font-family: 'JetBrains Mono', monospace;
     text-transform:uppercase;
 }
 
 h2:not(.text-base){
-    font-family: 'JetBrains Mono';
+    font-family: 'JetBrains Mono', monospace;
     text-transform:uppercase;
     padding-top: 56px;
     padding-bottom: 24px;
@@ -27,7 +27,7 @@ h2:not(.text-base){
 }
 
 h5{
-    font-family: 'JetBrains Mono';
+    font-family: 'JetBrains Mono', monospace;
     text-transform:uppercase;
     border-bottom: 1px solid #E8E0D9;
     padding-bottom: 16px;
