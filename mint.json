@@ -28,12 +28,10 @@
   "rounded":"sharp",
 "font":{
   "headings": {
-    "family": "JetBrains Custom",
-    "url": "https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&family=JetBrains+Mono:wght@600&display=swap"  
+    "family": "JetBrains Mono"
   },
   "body": {
-    "family": "Inter Custom",
-    "url": "https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap"
+    "family": "Inter"
   }
 },
   
