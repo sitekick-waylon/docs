@@ -7,7 +7,7 @@
   },
   "appearance":{
 "default": "dark",
-"strict": true
+"strict": "true"
   },
   "favicon": "/favicon.svg",
   "colors": {
