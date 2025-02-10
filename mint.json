@@ -5,9 +5,7 @@
     "dark": "/logo/Logo-Dark.svg",
     "light": "/logo/Logo-Light.svg"
   },
-  "appearance":{
-"default": "dark",
-"strict": "true"
+  "appearance": "Dark",
   },
   "favicon": "/favicon.svg",
   "colors": {
