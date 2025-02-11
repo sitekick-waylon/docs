@@ -5,7 +5,11 @@
     "dark": "/logo/Logo-Dark.svg",
     "light": "/logo/Logo-Light.svg"
   },
-  "appearance": "Dark",
+  "modeToggle": {
+    "default": "Dark",
+    "isHidden": true
+  }
+  default: "Dark",
   },
   "favicon": "/favicon.svg",
   "colors": {
